@@ -36,3 +36,65 @@
     transform: rotate(360deg);
   }
 }
+
+
+*{
+  justify-content: center;
+}
+#main-container{
+  background-color: bisque;
+  width: 500px;
+  text-align: center;
+  margin: auto;
+  margin-top: 6rem;
+  padding: 1rem;
+}
+#subject{
+  width: 250px;
+  padding: 0.3rem;
+  margin: 0.3rem;
+}
+#hour{
+  width: 60px;
+  padding: 0.3rem;
+  margin: 0.3rem;
+}
+#btn-add{
+  padding: 0.3rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin: 0.3rem;
+}
+/* #record-wrapper{
+  align-items: center;
+  display: flex;
+  background-color: yellowgreen;
+  justify-content: space-between;
+  padding: 0px 20px 0px 20px;
+}
+#rows{
+  display: flex;
+  background-color: aqua;
+  width: 200px;
+}
+#btnPlusMinus{
+  display: flex;
+  column-gap: 20px;
+}
+#btnPlusMinus button{
+  width: 50px;
+  cursor: pointer;
+} */
+
+#row{
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(103, 135, 135);
+  align-items: center;
+  margin-bottom: 10px;
+  padding-left: 10px;
+}
+#btnInDec button{
+  margin: 5px;
+  width: 40px;
+}
